@@ -43,10 +43,10 @@ predefined charsets
 Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9   
 `hashcat -m 1000 hashes.txt -w 4 -a 3 -p : --session=all --username ?1?1?1?1?1?1?1?1 --increment -1 ?l?d?u`  
 
-Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9 + some typical speical chears
+Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9 + some typical speical chears    
 `hashcat -m 1000 hashes.txt -w 4 -a 3 -p : --session=all --username ?1?1?1?1?1?1?1?1 --increment -1 "?l?d?u!_@,-<=."`  
 
-Directory + OneRuleToRuleThemAll
+Directory + OneRuleToRuleThemAll    
 `hashcat -m 1000 hashes.txt -w 4 -a 0 -p : --session=all --username \SecLists-master\Passwords\*.txt -r OneRuleToRuleThemAll.rule`
 
 ## Cracking NTLM hashes 
