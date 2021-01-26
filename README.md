@@ -1,10 +1,3 @@
-# Hashcat-Cheatsheet
-Hashcat Cheatsheet for OSCP
-https://hashcat.net/wiki/doku.php?id=hashcat
-
-## Identify Hashes
-
-`hash-identifier`
 
 Example Hashes: https://hashcat.net/wiki/doku.php?id=example_hashes
 
